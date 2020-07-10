@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""<b>Need Any Help? Then Contact me</b>-- @MaxxRider\n\n<b>And also don't forget to Subscribe Our Channel</b>: <a href="https://t.me/joinchat/AAAAAFfWz-izyEXi-mpiQQ">JOIN CHANNEL</a>""", disable_web_page_preview=True)
+    await message.reply_text("""<b>Don't forget to Subscribe Our Channel</b>: <a href="https://t.me/TSeriesFilmsOFFicial">JOIN CHANNEL</a>""", disable_web_page_preview=True)
 
  
 
@@ -48,12 +48,12 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
-            url="https://t.me/MaxxPrivate"
+            url="https://t.me/TSeriesFilmsOFFicial"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use👉 @MaxxRenameFileBot",
+        "please use👉",
         quote=True,
         reply_markup=reply_markup
     )
